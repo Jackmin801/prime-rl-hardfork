@@ -2,8 +2,8 @@
 
 Automated nightly benchmark results for prime-rl using `--bench` flag.
 
-**Last Updated:** 2026-01-11 00:10 UTC  
-**Commit:** `abc12345`
+**Last Updated:** 2026-01-12 05:33 UTC  
+**Commit:** `unknown`
 
 > :warning: indicates regression > 5% from baseline
 
@@ -11,18 +11,14 @@ Automated nightly benchmark results for prime-rl using `--bench` flag.
 
 | Type | Hardware | SeqLen | AC | Attn | MFU | TPS | Step Time | Peak Mem |
 |------|----------|--------|----|----|-----|-----|-----------|----------|
-| RL LoRA(rank=16) | 4xA6000 | 8192 | Recompute | FA2 | 10.4% | 5.15k | 25.50s | 29.6 GiB |
-| Full FT | 8xH100 | 8192 | Recompute | FA2 | 42.5% | 11.80k | 9.20s | 32.1 GiB |
-| RL LoRA(rank=16) | 8xH100 | 8192 | Recompute | FA2 | 45.2% (+2.7%) | 12.50k (+4.2%) | 8.50s (-3.4%) | 28.5 GiB |
-| SFT LoRA(rank=16) | 8xH100 | 8192 | Recompute | FA2 | 48.1% | 13.20k | 7.90s | 26.2 GiB |
+| RL Full | 2xHBM3 | 8192 | Recompute | FA2 | 5.7% | 17.54k | 1.09s | 25.0 GiB |
+| RL LoRA(r=16) | 2xHBM3 | 8192 | Recompute | FA2 | 5.9% | 22.03k | 1.49s | 23.8 GiB |
+| SFT Full | 2xHBM3 | 8192 | Recompute | FA2 | 13.4% | 41.41k | 0.79s | 25.0 GiB |
 
 ## Qwen3-4B
 
 | Type | Hardware | SeqLen | AC | Attn | MFU | TPS | Step Time | Peak Mem |
 |------|----------|--------|----|----|-----|-----|-----------|----------|
-| RL LoRA(rank=16) | 4xA6000 | 8192 | Recompute | FA2 | **8.2%** :warning: (-8.9%) | **3.79k** :warning: (-9.8%) | **42.10s** :warning: (+10.8%) | 44.5 GiB |
-| RL LoRA(rank=16) | 8xH100 | 8192 | Recompute | FA2 | 38.5% | 9.80k | 12.10s | 42.3 GiB |
-
-## Failed Benchmarks
-
-- **Qwen/Qwen3-4B** (full) on 4xA6000: CUDA out of memory. Tried to allocate 2.5 GiB but only 1.2 GiB available.
+| RL Full | 2xHBM3 | 8192 | Recompute | FA2 | 8.5% | 5.09k | 2.46s | 61.4 GiB |
+| RL LoRA(r=16) | 2xHBM3 | 8192 | Recompute | FA2 | 14.3% | 11.16k | 2.94s | 33.8 GiB |
+| SFT Full | 2xHBM3 | 8192 | Recompute | FA2 | 25.7% | 15.33k | 2.12s | 58.3 GiB |
