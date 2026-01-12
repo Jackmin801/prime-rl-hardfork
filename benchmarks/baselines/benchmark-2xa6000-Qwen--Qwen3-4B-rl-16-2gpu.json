@@ -11,31 +11,31 @@
     "dry_run": false,
     "timeout": 1800,
     "micro_batches": 2,
-    "docker_image": "primeintellect/prime-rl-jackmin@sha256:f6197cf716f6c2358437ad807e09cc877f3099102d044b47c51fe5bbd79a0e27",
+    "docker_image": "primeintellect/prime-rl-jackmin@sha256:04c57cdddfe41c4aeb5bf5aab7944ed7574162d78ced8a491acd276ee0e8f587",
     "device_name": "NVIDIA RTX A6000",
     "commit_sha": "unknown",
-    "timestamp": "2026-01-12T20:08:19.897018+00:00",
+    "timestamp": "2026-01-12T21:30:53.347170+00:00",
     "success": true,
     "error_reason": null
   },
   "metrics": {
     "mfu": {
-      "mean": 5.715994552381496,
-      "std": 0.05150743899213495,
-      "min": 5.683497081131681,
-      "max": 5.775382041387837
+      "mean": 10.042523126384499,
+      "std": 0.011772266523160468,
+      "min": 10.028977619953992,
+      "max": 10.05028365525654
     },
     "throughput": {
-      "mean": 1407.1824890135983,
-      "std": 12.680272092539036,
-      "min": 1399.1821538031825,
-      "max": 1421.8026979431872
+      "mean": 2472.301637004637,
+      "std": 2.898135601002168,
+      "min": 2468.966959324462,
+      "max": 2474.2121497306634
     },
     "step_time": {
-      "mean": 23.04640680200343,
-      "std": 0.6457393226288748,
-      "min": 22.30124632801744,
-      "max": 23.442034246982075
+      "mean": 13.271497751683151,
+      "std": 0.044375991089217956,
+      "min": 13.243284006020986,
+      "max": 13.322648072004085
     },
     "peak_memory": {
       "gib": 33.7890625,
