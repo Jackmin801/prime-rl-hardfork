@@ -1,0 +1,45 @@
+{
+  "config": {
+    "type": "rl",
+    "num_gpus": 2,
+    "model_name": "Qwen/Qwen3-0.6B",
+    "lora_rank": null,
+    "seq_len": 8192,
+    "ac": "Recompute",
+    "attention": "flash_attention_2",
+    "output": "/tmp/benchmark_result.json",
+    "dry_run": false,
+    "timeout": 1800,
+    "micro_batches": 2,
+    "docker_image": "primeintellect/prime-rl-jackmin",
+    "device_name": "NVIDIA H100 80GB HBM3",
+    "commit_sha": "unknown",
+    "timestamp": "2026-01-12T04:52:30.807326+00:00",
+    "success": true,
+    "error_reason": null
+  },
+  "metrics": {
+    "mfu": {
+      "mean": 5.841560417813791,
+      "std": 0.19301729436144904,
+      "min": 5.626012018620257,
+      "max": 5.998424755182242
+    },
+    "throughput": {
+      "mean": 18069.661724869027,
+      "std": 597.0591702732302,
+      "min": 17402.90723117471,
+      "max": 18554.889182981056
+    },
+    "step_time": {
+      "mean": 1.0885346036678432,
+      "std": 0.0019875217897021465,
+      "min": 1.0867098050002824,
+      "max": 1.0906523350022326
+    },
+    "peak_memory": {
+      "gib": 24.98828125,
+      "pct": 31.559294701318002
+    }
+  }
+}
