@@ -11,31 +11,32 @@
     "dry_run": false,
     "timeout": 1500,
     "micro_batches": 2,
-    "docker_image": "primeintellect/prime-rl-jackmin@sha256:9d9093cc3859822777c381cb8f4874098e8b28168760fccf5cfeab5fb88e2d13",
+    "docker_image": "primeintellect/prime-rl-jackmin@sha256:2100834906f848dd412c6eea279cb3f0a4da5be1810a43abdba698aee6af96cd",
     "device_name": "NVIDIA B200",
     "commit_sha": "unknown",
-    "timestamp": "2026-01-13T06:03:39.069633+00:00",
+    "timestamp": "2026-01-14T02:43:52.684499+00:00",
     "success": true,
-    "error_reason": null
+    "error_reason": null,
+    "time_taken": 212.51161990899982
   },
   "metrics": {
     "mfu": {
-      "mean": 12.904810696931586,
-      "std": 0.007530734804658435,
-      "min": 12.89612080552586,
-      "max": 12.909431880241613
+      "mean": 12.91676179253865,
+      "std": 0.009704679427691813,
+      "min": 12.905565678911465,
+      "max": 12.922767381595914
     },
     "throughput": {
-      "mean": 24043.442192471073,
-      "std": 14.030797599044742,
-      "min": 24027.251726250433,
-      "max": 24052.05209434293
+      "mean": 24065.708731912327,
+      "std": 18.08115626768943,
+      "min": 24044.84882802861,
+      "max": 24076.897972632025
     },
     "step_time": {
-      "mean": 38.91528735199972,
-      "std": 0.04880352634688105,
-      "min": 38.88124454100034,
-      "max": 38.97120090899989
+      "mean": 38.91657721399982,
+      "std": 0.05060400870528359,
+      "min": 38.88146832699931,
+      "max": 38.974582742000166
     },
     "peak_memory": {
       "gib": 36.046223958333336,

@@ -11,12 +11,13 @@
     "dry_run": false,
     "timeout": 6900,
     "micro_batches": 2,
-    "docker_image": "primeintellect/prime-rl-jackmin@sha256:9d9093cc3859822777c381cb8f4874098e8b28168760fccf5cfeab5fb88e2d13",
+    "docker_image": "primeintellect/prime-rl-jackmin@sha256:2100834906f848dd412c6eea279cb3f0a4da5be1810a43abdba698aee6af96cd",
     "device_name": "NVIDIA B200",
     "commit_sha": "unknown",
-    "timestamp": "2026-01-13T06:00:39.297809+00:00",
+    "timestamp": "2026-01-14T01:54:59.400480+00:00",
     "success": false,
-    "error_reason": "Non-zero exit code: 1"
+    "error_reason": "Non-zero exit code: 1",
+    "time_taken": 41.267746014000295
   },
   "metrics": {
     "mfu": {

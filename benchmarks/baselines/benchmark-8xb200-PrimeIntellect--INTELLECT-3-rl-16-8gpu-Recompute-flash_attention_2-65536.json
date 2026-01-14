@@ -9,37 +9,38 @@
     "attention": "flash_attention_2",
     "output": "/tmp/benchmark_result.json",
     "dry_run": false,
-    "timeout": 1500,
+    "timeout": 3300,
     "micro_batches": 2,
-    "docker_image": "primeintellect/prime-rl-jackmin@sha256:9d9093cc3859822777c381cb8f4874098e8b28168760fccf5cfeab5fb88e2d13",
+    "docker_image": "primeintellect/prime-rl-jackmin@sha256:2100834906f848dd412c6eea279cb3f0a4da5be1810a43abdba698aee6af96cd",
     "device_name": "NVIDIA B200",
     "commit_sha": "unknown",
-    "timestamp": "2026-01-13T05:31:15.479889+00:00",
+    "timestamp": "2026-01-14T02:04:55.029936+00:00",
     "success": true,
-    "error_reason": null
+    "error_reason": null,
+    "time_taken": 1295.345360876
   },
   "metrics": {
     "mfu": {
-      "mean": 5.84132694816217,
-      "std": 0.033086269392495975,
-      "min": 5.808351374048392,
-      "max": 5.874522812792882
+      "mean": 5.841222157017273,
+      "std": 0.03124092876302357,
+      "min": 5.807531015536397,
+      "max": 5.8692335626688585
     },
     "throughput": {
-      "mean": 5172.344994090976,
-      "std": 29.297041816717027,
-      "min": 5143.145970100659,
-      "max": 5201.739079676479
+      "mean": 5172.252204223445,
+      "std": 27.663040081845967,
+      "min": 5142.419563706952,
+      "max": 5197.05558453158
     },
     "step_time": {
-      "mean": 201.58144316000048,
-      "std": 2.30146913151598,
-      "min": 199.2750288060015,
-      "max": 203.87793498400242
+      "mean": 201.76310052499989,
+      "std": 1.9148706525768333,
+      "min": 200.22185460899982,
+      "max": 203.90673127100035
     },
     "peak_memory": {
-      "gib": 153.607421875,
-      "pct": 86.12154249949525
+      "gib": 153.48372395833334,
+      "pct": 86.05219002122779
     }
   }
 }
